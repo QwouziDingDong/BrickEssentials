@@ -1,0 +1,58 @@
+This is a written Manual to all features of BrickEssentials. Make sure to use the Blender Version 3.5 or above to have all features working properly.
+
+||BrickHouse:
+
+With this feature you can create large city scenes even on low end pc's.
+for now there are only a few house types you can choose from, there will be more in the future though.
+
+Select the type of house you want to import and hit the "Add House" Button.
+
+||Brickalizer:
+
+With this feature you can turn any 3d object into Lego, it is mainly intended for create a Lego ground.
+
+Select each brick you want the Brickalizer to use.
+set the proportions x y z.
+
+x and y in studs (if it is not a square, y must be larger than x)
+
+z height in stacked plates.
+
+After adding ALL bricks you want the Brickalizer to use, Select your object and press "Generate".
+
+Bigger Objects will take longer. I am still working on it.
+
+||Blasterizor:
+
+With this feature, animating guns is done with one click.
+
+Import you the gun, projectile and blast/shockwave pieces from mecabricks. If you want to have a shockwave, check the "Blast ON/OFF" box. Set the "Projectile speed" and "Projectile lifetime" to your liking.
+
+Now define your "Projectile Part" object and if the above checked the "Blast Stage 1 Part". You can leave "Blast Stage 2 Part" empty, or add another object if you want a shockwave animation.
+
+When ready, just hit "Generate" while having your gun selected.
+
+||BrickStrings:
+
+Just hit the buttons to add the individuall BrickStrings Objects.
+
+||BrickCrowd:
+
+First press "Add Crowd Nodes" then add minifigures with the "Add Minifig to Collection", you may add multiple minifigures.
+
+Make sure to move your Minifis to the center x and y before adding.
+
+You can delete the Cylinder Object, it is just for orientation.
+
+You can play around with the settings of the Geometry Node when selecting the crowd object and going to modifier tab.
+
+||BrickBuilder:
+
+BrickBuilder can be used to make building animations.
+
+"Amount" defines how many bricks get built at the same time.
+"Speed" is the speed the bricks fly from the source to their place.
+Select the collection of your build in "Bricks Collection"
+Select a starting/spawn point, from where the bricks get build with "Pin Point", you may animation that points location.
+Check "Hide Before Building" to make the bricks be invisible before they get placed.
+Now just hit "Build"
